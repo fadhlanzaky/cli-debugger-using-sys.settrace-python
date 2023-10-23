@@ -13,7 +13,7 @@ def main():
     # a list to store all the breakpoints
     breakpoint_list = []
 
-    # func name input
+    # func name input. 'sample' for example, the 'sample' function must exist in functions.py
     function_name = input('function name: ')
     try:
         eval(f'functions.{function_name}')
